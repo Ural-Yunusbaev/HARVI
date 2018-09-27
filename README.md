@@ -2,15 +2,25 @@
 Python script to integrate  Beagle3 phased haplotypes, PCADMIX ancestry data, VEP, LOFTEE, CADD deleterious variants
 
 There are 2 ways to start:
+
 1) type
+
 ./gdi.py 22 individuals.list PathToBeagleFiles PathToPCADMIXFiles 
+
 to integrate Beagle3 and PCADMIX files;
+
 2) type
+
 ./gdi.py 22 individuals.list PathToBeagleFiles PathToPCADMIXFiles PathToVEPFiles PathToCADDFiles
+
 to integrate Beagle3, PCADMIX, VEP and CADD files,
+
 were
-22 - chromosomes number"
+
+22 - chromosomes number
+
 individuals.list - individuals list
+
 
 Type
 ./gdi.py 1 oneindividual.list IN IN IN IN
