@@ -3,26 +3,20 @@ Python script to integrate  Beagle3 phased haplotypes, PCADMIX ancestry data, VE
 
 ### Usage
 
-<pre>./ibdmig.py 22 ibdmig.list mapfile.bim</pre>
+There are 2 ways to start GDI:
 
-There are 2 ways to start:
-
-1) type
+To integrate Beagle3 and PCADMIX files type
 <pre>./gdi.py 22 individuals.list PathToBeagleFiles PathToPCADMIXFiles</pre>
-to integrate Beagle3 and PCADMIX files;
 
-
-2) type
+To integrate Beagle3, PCADMIX, VEP and CADD files type
 <pre>./gdi.py 22 individuals.list PathToBeagleFiles PathToPCADMIXFiles PathToVEPFiles PathToCADDFiles</pre>
-to integrate Beagle3, PCADMIX, VEP and CADD files,
 
 were
 22 - chromosomes number
 individuals.list - individuals list
 
 
-
-Run using example files
+Test run using example files
 <pre>./gdi.py 1 oneindividual.list IN IN IN IN</pre>
 
 
