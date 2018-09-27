@@ -1,42 +1,32 @@
 # GDI (Genomic Data Integrator)
 Python script to integrate  Beagle3 phased haplotypes, PCADMIX ancestry data, VEP, LOFTEE, CADD deleterious variants
 
-There are 2 ways to start:
+There are 2 ways to start:<br>
+1) type<br>
+./gdi.py 22 individuals.list PathToBeagleFiles PathToPCADMIXFiles<br>
+to integrate Beagle3 and PCADMIX files;<br>
+2) type<br>
+./gdi.py 22 individuals.list PathToBeagleFiles PathToPCADMIXFiles PathToVEPFiles PathToCADDFiles<br>
+to integrate Beagle3, PCADMIX, VEP and CADD files,<br>
+were<br>
+22 - chromosomes number<br>
+individuals.list - individuals list<br>
 
-1) type
+Type<br>
+./gdi.py 1 oneindividual.list IN IN IN IN<br>
+to run using example files.<br>
 
-./gdi.py 22 individuals.list PathToBeagleFiles PathToPCADMIXFiles 
+ File names format:<br>
+ individual_id.suffix.chromosome<br>
+ Examles:<br>
+ PathToBeagleFiles/GS000010321-ASM.bgl.1<br>
+ PathToVEPFiles/GS000010321-ASM.vep.1<br>
+ PathToCADDFiles/GS000010321-ASM.cadd.1<br>
 
-to integrate Beagle3 and PCADMIX files;
-
-2) type
-
-./gdi.py 22 individuals.list PathToBeagleFiles PathToPCADMIXFiles PathToVEPFiles PathToCADDFiles
-
-to integrate Beagle3, PCADMIX, VEP and CADD files,
-
-were
-
-22 - chromosomes number
-
-individuals.list - individuals list
-
-
-Type
-./gdi.py 1 oneindividual.list IN IN IN IN
-to run using example files.
-
- File names format:
- individual_id.suffix.chromosome
- Examles:
- PathToBeagleFiles/GS000010321-ASM.bgl.1
- PathToVEPFiles/GS000010321-ASM.vep.1
- PathToCADDFiles/GS000010321-ASM.cadd.1
-
- File names format:
- individual_id.suffix.chromosome.haplotype
- PathToPCADMIXFiles/individual_id.pcadmix.1.1
- PathToPCADMIXFiles/individual_id.pcadmix.1.2
- Examles:
- PathToPCADMIXFiles/GS000010321-ASM.pcadmix.1.1
- PathToPCADMIXFiles/GS000010321-ASM.pcadmix.1.2
+ File names format:<br>
+ individual_id.suffix.chromosome.haplotype<br>
+ PathToPCADMIXFiles/individual_id.pcadmix.1.1<br>
+ PathToPCADMIXFiles/individual_id.pcadmix.1.2<br>
+ Examles:<br>
+ PathToPCADMIXFiles/GS000010321-ASM.pcadmix.1.1<br>
+ PathToPCADMIXFiles/GS000010321-ASM.pcadmix.1.2<br>
