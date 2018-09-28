@@ -1,4 +1,6 @@
 # GDI (Genomic Data Integrator)
+# HARVDI (Haplotype, Ancestry & Risk Variant Data Integrator)
+
 Python script to integrate  Beagle3 phased haplotypes, PCADMIX ancestry data, VEP, LOFTEE, CADD deleterious variants
 
 ### Usage
