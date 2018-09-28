@@ -1,17 +1,16 @@
-# GDI (Genomic Data Integrator)
-# HARVDI (Haplotype, Ancestry & Risk Variant Data Integrator)
+# Genomic Data Integrator HARVI
 
-Python script to integrate  Beagle3 phased haplotypes, PCADMIX ancestry data, VEP, LOFTEE, CADD deleterious variants
+HARVI (Haplotype, Ancestry & Risk Variant Integrator) is a Python script to integrate  Beagle3 phased haplotypes, PCADMIX ancestry data, VEP, LOFTEE, CADD deleterious variants
 
 ### Usage
 
 There are 2 ways to start GDI:
 
 To integrate Beagle3 and PCADMIX files type
-<pre>./gdi.py 22 individuals.list PathToBeagleFiles PathToPCADMIXFiles</pre>
+<pre>./harvi.py 22 individuals.list PathToBeagleFiles PathToPCADMIXFiles</pre>
 
 To integrate Beagle3, PCADMIX, VEP and CADD files type
-<pre>./gdi.py 22 individuals.list PathToBeagleFiles PathToPCADMIXFiles PathToVEPFiles PathToCADDFiles</pre>
+<pre>./harvi.py 22 individuals.list PathToBeagleFiles PathToPCADMIXFiles PathToVEPFiles PathToCADDFiles</pre>
 
 were
 22 - chromosomes number
@@ -19,7 +18,7 @@ individuals.list - individuals list
 
 
 Test run using example files
-<pre>./gdi.py 1 oneindividual.list IN IN IN IN</pre>
+<pre>./harvi.py 1 oneindividual.list IN IN IN IN</pre>
 
 
 
