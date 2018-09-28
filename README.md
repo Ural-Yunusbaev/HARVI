@@ -29,7 +29,6 @@ Test run using example files
 
 head OUT/GS000010321-ASM.haps.anc.vep.cadd
 #       GS000010321-ASM Posterior(PROXY_for_WEA, PROXY_for_EA)
-#Chrom  Pos     Hap1    Hap2    Hap1Anc1        Hap1Anc2        Hap1Anc3        Hap2Anc1        Hap2Anc2        Hap2Anc3        Hap1Gene        Hap1Feature     Hap1Consequence Hap1Canonical     Hap1_LoF        Hap1_Phred      Hap1_Source     Hap2Gene        Hap2Feature     Hap2Consequence Hap2Canonical   Hap2_LoF        Hap2_Phred      Hap2_Source
 #Chrom  Pos     Hap1  Hap2  Hap1Anc1     Hap1Anc2    Hap1Anc3  Hap2Anc1      Hap2Anc2    Hap2Anc3  Hap1Gene        Hap1Feature     Hap1Consequence          Hap1Canonical   Hap1_LoF  Hap1_Phred      Hap1_Source     Hap2Gene        Hap2Feature     Hap2Consequence Hap2Canonical  Hap2_LoF Hap2_Phred  Hap2_Source
 
 1       568256  T     T     0.00507307   0.994927    -         0.00626922    0.993731    -         ENSG00000237973 ENST00000414273 downstream_gene_variant  YES             -         10.02   VC      ENSG00000237973 ENST00000414273 downstream_gene_variant         YES            -        10.02       VC
